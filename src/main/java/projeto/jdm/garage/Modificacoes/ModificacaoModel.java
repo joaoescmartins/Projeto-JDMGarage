@@ -1,6 +1,5 @@
 package projeto.jdm.garage.Modificacoes;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +12,7 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Modificacao {
+public class ModificacaoModel {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
